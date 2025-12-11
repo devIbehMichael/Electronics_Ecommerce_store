@@ -3,9 +3,9 @@
 
 UPDATE auth.users
 SET raw_user_meta_data = raw_user_meta_data || '{"role": "admin"}'::jsonb
-WHERE email = 'user@example.com';
+WHERE email = 'ibehmichael@gmail.com';
 
 -- To verify it worked, you can run:
 SELECT email, raw_user_meta_data 
 FROM auth.users 
-WHERE email = 'user@example.com';
+WHERE email = 'ibehmichael@gmail.com';
